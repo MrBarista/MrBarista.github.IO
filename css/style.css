@@ -1,0 +1,209 @@
+*{
+    font-family: 'Roboto', sans-serif;
+}
+  header{
+    position: relative;
+}  
+nav{
+    min-height: 51px;
+    background-color: #212121; 
+    position: sticky;
+    top: 0; 
+    z-index: 2;
+    
+}
+
+.container{
+    padding: 0;
+}
+
+.menu{
+    display: flex;
+    justify-content: space-between;
+    padding: 13.5px 70px 13.5px 71px;
+    margin: 0;
+    list-style-type: none ;
+}
+.menu .menu_link {
+    font-size: 15px;
+    font-weight: 300;
+    color: #ffffff;
+    text-decoration: none;    
+}
+.menu .menu_link:hover{
+    text-decoration: underline;
+}
+
+.menu .menu_item {
+    border-right: 2px dotted black;
+    padding: 0 24px;
+}
+.subheader{
+    position: absolute;
+    width: 100%; 
+    min-height: 84px;
+    background-color: rgb(0,0,0, .6);
+}
+.subheader .subheader_logo{
+    display: block;
+    max-width: 100%;
+    margin-top: 16px;
+}
+.subheader .subheader_logo_txt{
+    /* opacity: 0.5; */
+    margin-top: 6px;
+    min-height: 13px;
+    font-size: 13px;
+    font-weight: 100;
+   /*  color: #ffffff */
+   color: rgba(255, 255, 255, 0.5);
+}
+.subheader .subheader_call{
+  min-height: 11px;
+  margin-top: 19px;
+  font-size: 12px;
+  font-weight: 300;
+  line-height: 14px;
+  text-align: right;
+  color: #ffffff;
+}
+.subheader .subheader_phone{
+    display: block;
+    min-height: 16px;
+    margin-top: 8px; 
+    font-size: 22px;
+    font-weight: 400;
+    line-height: 15px;
+    text-align: right;
+    color: #ffffff;
+    text-decoration: none;
+}
+.subheader .subheader_phone:hover{
+    text-decoration: underline;
+}
+.subheader .subheader_btn{
+   width: 172px; 
+  height: 46px;
+  margin-top: 19px;
+  box-shadow: inset 0px -3px 0 0 rgba(0, 0, 0, 0.12);
+  border: none;
+  border-radius: 4px;
+  background-image: linear-gradient(to top, #1eacc7, #4ce2ff);
+  text-shadow: 0.7px 0.7px 0 rgba(0, 0, 0, 0.21);
+
+  font-size: 14px;
+  font-weight: 400;
+  text-transform: uppercase;
+  color: #ffffff;
+}
+
+.promo{
+    min-height: 799px;
+    background: url('../img/first_screen.jpg') center center/cover no-repeat;
+    padding: 151px 0 135px 0;
+}
+h1{
+  font-weight: 900;
+  font-size: 60px;
+  text-align: center;
+  text-transform: uppercase;
+  color: #ffffff;
+  margin: 0;
+}
+.promo .promo_subheader{
+  font-weight: 700;
+  font-size: 36px;
+  text-align: center;
+  text-transform: uppercase;
+  color: #ffffff;
+  margin: 0;
+  /* margin-top: 21px; */
+}
+.promo .promo_text{
+    margin-top: 23px;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 24px;
+    text-align: center;
+    color: #ffffff;
+}
+.promo .promo_button{
+    display: block;
+    margin: 0 auto;
+    margin-top: 118px;
+    width: 259px;
+    height: 63px;
+    box-shadow: inset 0px -4px 0 0 rgba(0, 0, 0, 0.12);
+    border: none;
+    border-radius: 4px;
+    background-image: linear-gradient(to top, #1eacc7, #4ce2ff);
+    text-shadow: 0.7px 0.7px 0 rgba(0, 0, 0, 0.21);
+    padding: 0;
+  font-size: 18px;
+  font-weight: 400;
+  color: #ffffff;
+  text-transform: uppercase;
+}
+.work_with_us{
+    min-height: 900px;
+    padding: 71px 0 65px 0;
+    text-align: center;
+}
+.rectangle{
+    display: block;
+    margin:0 auto ;
+    width: 112px;
+    height: 24px;
+    background-color: #000000;
+                                        /* Получилось сделать, надо будет проверить как ещё можно */
+    font-size: 11px;
+    font-weight: 100;
+    text-align: center;
+    color: #ffffff;
+    text-transform: uppercase;
+    line-height: 25px;
+}
+
+.title{
+    /* position: relative; */
+    display: inline-block;
+    text-align: center;
+    margin: 0;
+    margin-top: 38px;
+    font-size: 38px;
+    font-weight: 700;
+    text-transform: uppercase;
+    color: #222222;
+    
+}
+.work_with_us .wwu_descr{
+  width: 341px;
+  font-size: 15px;
+  font-weight: 300;
+  line-height: 21px;
+  text-align: justify;
+  color: #202020;
+  margin-left: 26px;
+}
+
+span{
+    font-weight: 400; 
+    line-height: 21px;
+    font-size: 17px;
+    color: #1eacc7;
+}
+.work_with_us .wwu_round{
+    display: flex;
+    justify-content:center; 
+   align-items: center;
+   background-color: #1eacc7;
+   border-radius: 100%;
+   min-width: 113px;
+   height: 113px;
+}
+.work_with_us .wwu_wrapper{
+    display: flex;
+    margin-top: 40px;
+    align-items: center;
+    justify-content: center;
+}
